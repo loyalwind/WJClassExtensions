@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "WJClassExtensions"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "简单常用的OC系统类扩展"
   spec.description  = <<-DESC "简单常用的OC系统类扩展"
                    DESC
@@ -39,8 +39,8 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = 'WJClassExtensions/WJClassExtensions.h'
 
-  # spec.public_header_files = "Classes/**/*.h"
-
+  # spec.public_header_files = "WJClassExtensions/WJClassExtensions.h"
+  # spec.public_header_files = 'WJClassExtensions/public/header/*.h'  
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # spec.resource  = "icon.png"

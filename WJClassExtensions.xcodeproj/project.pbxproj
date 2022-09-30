@@ -17,7 +17,7 @@
 		A0C59AAB28E6CE1E00851B89 /* UIDevice+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C59A9E28E6CE1E00851B89 /* UIDevice+WJExtension.m */; };
 		A0C59AAC28E6CE1E00851B89 /* UIDevice+WJExtension.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0C59AA028E6CE1E00851B89 /* UIDevice+WJExtension.plist */; };
 		A0C59AAD28E6CE1E00851B89 /* NSObject+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C59AA128E6CE1E00851B89 /* NSObject+WJExtension.m */; };
-		A0C59AAE28E6CE1E00851B89 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C59AA328E6CE1E00851B89 /* UIImage+Extension.m */; };
+		A0C59AAE28E6CE1E00851B89 /* UIImage+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C59AA328E6CE1E00851B89 /* UIImage+WJExtension.m */; };
 		A0C59AB028E6CE1E00851B89 /* UIView+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C59AA728E6CE1E00851B89 /* UIView+WJExtension.m */; };
 		A0C59AB128E6CE1E00851B89 /* NSString+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C59AA828E6CE1E00851B89 /* NSString+WJExtension.m */; };
 		A0C59ABC28E6D23B00851B89 /* UIViewController+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C59ABB28E6D23B00851B89 /* UIViewController+WJExtension.m */; };
@@ -38,11 +38,11 @@
 		A0C59A9528E6CC4800851B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0C59A9628E6CC4800851B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0C59A9E28E6CE1E00851B89 /* UIDevice+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+WJExtension.m"; sourceTree = "<group>"; };
-		A0C59A9F28E6CE1E00851B89 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		A0C59A9F28E6CE1E00851B89 /* UIImage+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WJExtension.h"; sourceTree = "<group>"; };
 		A0C59AA028E6CE1E00851B89 /* UIDevice+WJExtension.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UIDevice+WJExtension.plist"; sourceTree = "<group>"; };
 		A0C59AA128E6CE1E00851B89 /* NSObject+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WJExtension.m"; sourceTree = "<group>"; };
 		A0C59AA228E6CE1E00851B89 /* UIView+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WJExtension.h"; sourceTree = "<group>"; };
-		A0C59AA328E6CE1E00851B89 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		A0C59AA328E6CE1E00851B89 /* UIImage+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WJExtension.m"; sourceTree = "<group>"; };
 		A0C59AA628E6CE1E00851B89 /* UIDevice+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+WJExtension.h"; sourceTree = "<group>"; };
 		A0C59AA728E6CE1E00851B89 /* UIView+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WJExtension.m"; sourceTree = "<group>"; };
 		A0C59AA828E6CE1E00851B89 /* NSString+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WJExtension.m"; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 				A0C59AA628E6CE1E00851B89 /* UIDevice+WJExtension.h */,
 				A0C59A9E28E6CE1E00851B89 /* UIDevice+WJExtension.m */,
 				A0C59AA028E6CE1E00851B89 /* UIDevice+WJExtension.plist */,
-				A0C59A9F28E6CE1E00851B89 /* UIImage+Extension.h */,
-				A0C59AA328E6CE1E00851B89 /* UIImage+Extension.m */,
+				A0C59A9F28E6CE1E00851B89 /* UIImage+WJExtension.h */,
+				A0C59AA328E6CE1E00851B89 /* UIImage+WJExtension.m */,
 				A0C59AA228E6CE1E00851B89 /* UIView+WJExtension.h */,
 				A0C59AA728E6CE1E00851B89 /* UIView+WJExtension.m */,
 				A0C59ABA28E6D23B00851B89 /* UIViewController+WJExtension.h */,
@@ -192,7 +192,7 @@
 			files = (
 				A0C59AB028E6CE1E00851B89 /* UIView+WJExtension.m in Sources */,
 				A0C59A8C28E6CC4600851B89 /* ViewController.m in Sources */,
-				A0C59AAE28E6CE1E00851B89 /* UIImage+Extension.m in Sources */,
+				A0C59AAE28E6CE1E00851B89 /* UIImage+WJExtension.m in Sources */,
 				A0C59AAB28E6CE1E00851B89 /* UIDevice+WJExtension.m in Sources */,
 				A0C59AB128E6CE1E00851B89 /* NSString+WJExtension.m in Sources */,
 				A0C59A8628E6CC4600851B89 /* AppDelegate.m in Sources */,

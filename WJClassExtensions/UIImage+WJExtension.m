@@ -5,7 +5,7 @@
 //  Created by loyalwind on 2018/12/18.
 //
 
-#import "UIImage+Extension.h"
+#import "UIImage+WJExtension.h"
 
 @implementation UIImage (WJExtension)
 
