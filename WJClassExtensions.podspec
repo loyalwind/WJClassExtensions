@@ -9,14 +9,14 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "WJClassExtensions"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "简单常用的OC系统类扩展"
   spec.description  = <<-DESC "简单常用的OC系统类扩展"
                    DESC
   spec.homepage     = "https://github.com/loyalwind/WJClassExtensions"
   spec.license      = "MIT"
   spec.author       = { "PengWeiJian" => "loyalwind@163.com" }
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "12.0"
   spec.requires_arc = true
 
   #  When using multiple platforms
